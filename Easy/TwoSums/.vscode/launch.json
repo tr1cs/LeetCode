@@ -9,8 +9,8 @@
             "name": "TwoSums",
             "request": "launch",
             "mainClass": "TwoSums",
-            "projectName": "LeetCode_867e6f8e",
-            "args": "9 1 2 7 3 8"
+            "projectName": "TwoSums_41d89fc8",
+            "args": "9 1 4 8 7 6 3 2 8"
         }
     ]
 }

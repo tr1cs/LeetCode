@@ -17,8 +17,8 @@ class TwoSums {
             
             if(sum == target)
             {
-                result[0] = nums[i - 1];
-                result[1] = nums[i];
+                result[0] = nums[i];
+                result[1] = nums[k];
                 return result;
             }
 
