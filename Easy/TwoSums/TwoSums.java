@@ -9,7 +9,6 @@ class TwoSums {
 
         int sum = 0, i = 0, k = nums.length - 1;
         int result [] = new int[2];
-        Arrays.sort(nums);
 
         while(i < nums.length && k >= 0)
         {
@@ -17,17 +16,10 @@ class TwoSums {
             
             if(sum == target)
             {
-                result[0] = nums[i];
-                result[1] = nums[k];
+                result[0] = i;
+                result[1] = k;
                 return result;
             }
-
-            if(nums[i] == nums[k])
-            {
-                break;
-            }
-
-            System.out.println("Sum is: " + sum + " Nums i: " + nums[i] + " Nums k: " + nums[k] + " Target is: " + target);
 
             if(sum < target)
                 i++;
